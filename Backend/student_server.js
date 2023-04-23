@@ -26,13 +26,13 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 const _dirname = path.dirname("")
-const buildPath = path.join(_dirname, "../React-App-Loose-Coupled-Frontend/build");
+const buildPath = path.join(_dirname, "../Frontend/build");
 
 app.use(express.static(buildPath));
 
 app.get("/*", function(req, res) {
   res.sendFile(
-  path.join(__dirname, "../React-App-Loose-Coupled-Frontend/build/index.html"),
+  path.join(__dirname, "../Frontend/build/index.html"),
      function (err) {
         if (err) {
                 res.status(500).send(err);
