@@ -1,6 +1,6 @@
 module.exports = {
-    HOST: "studentdatabase.cw9tgdsxqdta.ap-south-1.rds.amazonaws.com", //localhost or rds endpoint
-    USER: "pranav", //your username
+    HOST: "studentdatabase.cw9tgdsxqdta.ap-south-1.rds.amazonaws.com", //"localhost" or rds endpoint
+    USER: "pranav", //your username or "root"
     PASSWORD: "password", //password authentication
     DB: "studentdb", //new database name
     dialect: "mysql",
