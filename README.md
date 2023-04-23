@@ -7,4 +7,4 @@ Team_no : 13
 ######
 
 
-Topic: Deplayment of Web Apps using AWS Cloud
+Topic: Deployment of Web App using AWS Cloud
