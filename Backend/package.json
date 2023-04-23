@@ -1,0 +1,27 @@
+{
+  "name": "student_app_backend",
+  "version": "1.0.0",
+  "description": "backend with REST APIs to perform simple CRUD in a MySQL database using Sequelize",
+  "main": "student_server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "sequelize",
+    "nodejs",
+    "rest",
+    "backend"
+  ],
+  "author": "rusiri",
+  "license": "ISC",
+  "dependencies": {
+    "-": "^0.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "save": "^2.9.0",
+    "sequelize": "^6.31.0"
+  }
+}
