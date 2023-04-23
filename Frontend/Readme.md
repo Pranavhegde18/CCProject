@@ -11,4 +11,8 @@ npm start
 #####
 
 //after using nginx and changing .conf files
-pm2 start //runs on cloud
+#####
+
+pm2 start 
+#####
+//runs on cloud
