@@ -11,8 +11,8 @@ jobs:
       uses: actions/setup-node@v2
       with:
         node-version: 14.x
-    - run: npm install
-    - run: CI=false npm run build
+    - run: sudo npm install
+    - run: CI=false sudo npm run build
     - name: ssh deploy on aws ec2
       uses: easingthemes/ssh-deploy@v2.1.4
       env:
